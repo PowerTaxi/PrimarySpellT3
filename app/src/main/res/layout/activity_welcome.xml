@@ -7,22 +7,6 @@
              tools:ignore="MergeRootFrame" >
 
     <TextView
-        android:layout_width="140dp"
-        android:layout_height="55dp"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Welcome to Primary Spell"
-        android:id="@+id/textView"
-        android:layout_gravity="center_horizontal|top" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="36dp"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="By"
-        android:id="@+id/textView2"
-        android:layout_gravity="center" />
-
-    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -45,5 +29,21 @@
         android:text="Evan Power"
         android:id="@+id/textView5"
         android:layout_gravity="right|bottom" />
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome to Primary Spell"
+        android:id="@+id/textView"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="102dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="By"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal|bottom" />
 
 </FrameLayout>
