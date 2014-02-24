@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:id="@+id/container"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     tools:context="com.primary.spell.ExamActivity"
+     tools:ignore="MergeRootFrame">
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/ic_action_next"
+        android:id="@+id/imageButton1"
+        android:contentDescription="@string/next"
+        android:onClick="nextButton"
+        android:layout_gravity="left|top"/>
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/ic_action_remove"
+        android:id="@+id/imageButton2"
+        android:contentDescription="@string/delete"
+        android:onClick="deleteButton"
+        android:layout_gravity="center|top"/>
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/ic_action_speaker"
+        android:id="@+id/imageButton3"
+        android:contentDescription="@string/speak"
+        android:layout_gravity="right|top"/>
+
+    <android.gesture.GestureOverlayView
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_marginBottom="15dp"
+        android:fadeEnabled="true"
+        android:fadeOffset="2000"
+        android:gestureColor="#000000"
+        android:uncertainGestureColor="#B22222"
+        android:gestureStrokeType="multiple"
+        android:id="@+id/gestureOverlayView"
+        android:layout_gravity="bottom">
+    </android.gesture.GestureOverlayView>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="267dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/progressBar"
+        android:max="100"
+        android:indeterminate="false"
+        android:progress="5"
+        android:layout_gravity="center_horizontal|bottom"/>
+
+</FrameLayout>

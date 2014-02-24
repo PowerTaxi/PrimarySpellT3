@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Primary Spell</string>
+    <string name="welcome">Welcome t</string>
+    <string name="action_settings">Settings</string>
+    <string name="classjnr">Junior Infants</string>
+    <string name="classsnr">Senior Infants</string>
+    <string name="classfirst">1st Class</string>
+    <string name="classsecond">2nd Class</string>
+    <string name="classthird">3rd Class</string>
+    <string name="classfourth">4th Class</string>
+    <string name="help">Support</string>
+    <string name="name">Name</string>
+    <string name="begin">Begin Test</string>
+    <string name="splash">Splash Screen Image</string>
+    <string name="next">Next Button</string>
+    <string name="delete">Delete Button</string>
+    <string name="speak">Speak Word</string>
+    <string-array name="classlist">
+        <item>Junior Infants</item>
+        <item>Senior Infants</item>
+        <item>1st Class</item>
+        <item>2nd Class</item>
+        <item>3rd Class</item>
+        <item>4th Class</item>
+    </string-array>
+
+</resources>
