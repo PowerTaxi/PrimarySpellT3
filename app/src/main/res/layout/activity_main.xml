@@ -32,7 +32,7 @@
         android:id="@+id/button"
         android:layout_gravity="center_horizontal|bottom"
         android:onClick="startExam"
-        android:background="@drawable/android"/>
+        android:background="@drawable/androidbutton"/>
 
 
 
