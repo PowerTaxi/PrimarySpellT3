@@ -31,9 +31,10 @@ public class ResultsActivity extends Activity
 
         calcResults();
 
-        TextView tv = (TextView) findViewById(R.id.editText);
 
-        tv.setText(Integer.toString(result));
+        TextView tv2 = (TextView) findViewById(R.id.textView2);
+
+        tv2.setText(Integer.toString(result));
         email = prefData.getString("Email", email);
         name = prefData.getString("Name", name);
 

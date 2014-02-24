@@ -3,17 +3,6 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
-    <EditText
-        android:layout_marginTop="25dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"
-        android:hint="Results"
-        android:ems="10"
-        android:id="@+id/editText"
-        android:layout_gravity="center_horizontal|top"
-        style="@style/AppTheme" />
-
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
@@ -22,6 +11,15 @@
         android:id="@+id/button"
         android:layout_gravity="left|bottom"
         android:onClick="buttonOnClickCancel" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Your score is"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="@dimen/activity_horizontal_margin" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -41,6 +39,16 @@
         android:id="@+id/imageView"
         android:layout_gravity="center"
         android:src="@drawable/ic_prof1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="200dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" "
+        android:textColor="#ffffffff"
+        android:id="@+id/textView2"/>
 
 
 </FrameLayout>
