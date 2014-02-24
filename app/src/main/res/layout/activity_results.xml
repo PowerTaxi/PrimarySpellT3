@@ -11,7 +11,8 @@
         android:hint="Results"
         android:ems="10"
         android:id="@+id/editText"
-        android:layout_gravity="center_horizontal|top"/>
+        android:layout_gravity="center_horizontal|top"
+        style="@style/AppTheme" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -32,7 +33,14 @@
         android:clickable="true"
         android:onClick="emailOnclick" />
 
-   
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:src="@drawable/rnew_prof"/>
+
+
 
 
 </FrameLayout>
